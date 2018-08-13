@@ -1,6 +1,6 @@
 {
   "name": "eps-start",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test for study",
   "main": "src/index.js",
   "scripts": {
