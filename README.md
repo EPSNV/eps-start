@@ -11,13 +11,11 @@ npm install eps-start --save
 ```javascript
 import { makeSegment, startSegment, endSegment, segmentToString, midpointSegment } from 'eps-start';
 
-const point1 = makePoint(1,1);
-const point2 = makePoint(3,3);
-const segment = makeSegment(point1, point2);
+const segment = makeSegment(point1, point2); // point1 (1,1), point2 (3,3) 
 startSegment(segment); // point1
 endSegment(segment); // point2
 segmentToString(segment); // [(1, 1), (3, 3)]
-const point3 = midpointSegment(segment); //
-pointToString(point3); // (2, 2)
+const point3 = midpointSegment(segment); // point3 (2,2)
+
 ```
 
